@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ListViewSample</string>
+    <string name="logo">Logo</string>
+    <string name="language_name">Language Name</string>
 </resources>

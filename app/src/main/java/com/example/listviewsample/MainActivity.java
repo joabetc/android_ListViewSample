@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         lstViewLanguages = findViewById(R.id.lstViewLanguages);
         List<Language> languageList = loadLanguages();
+
+        LanguageAdapter adpter = new LanguageAdapter(languageList, this);
+        lstViewLanguages.setAdapter(adpter);
     }
 
     public List<Language> loadLanguages() {
